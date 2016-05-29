@@ -1,0 +1,27 @@
+.progressiveMedia {
+  .progressiveMedia-canvas {
+    visibility: hidden;
+    opacity: 0;
+    backface-visibility: hidden;
+  }
+  &.is-canvasLoaded {
+    .progressiveMedia-canvas {
+      visibility: visible;
+      opacity: 1;
+      transition: visibility 0s linear 0s,opacity .4s 0s;
+    }
+  }
+
+  .progressiveMedia-image {
+    visibility: hidden;
+    opacity: 0;
+    backface-visibility: hidden;
+  }
+  &.is-imageLoaded {
+    .progressiveMedia-image {
+      visibility: visible;
+      opacity: 1;
+      transition: visibility 0s linear 0s, opacity 1s 0s;
+    }
+  }
+}
