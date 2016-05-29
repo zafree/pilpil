@@ -1,6 +1,6 @@
 # Pilpil - Progressive Image Loading
 
-Pilpil is a tiny, pure javascript libraby for Progressive Image Loading with a blur effect to reduce the page load time; as seen on [Medium](https://medium.com/designing-medium/image-zoom-on-medium-24d146fc0c20).
+Pilpil is a tiny, pure JavaScript library for Progressive Image Loading with a blur effect to reduce the page load time; as seen on [Medium](https://medium.com/designing-medium/image-zoom-on-medium-24d146fc0c20).
 
 ### Demo
 https://zafree.github.io/pilpil
@@ -48,7 +48,7 @@ https://zafree.github.io/pilpil
 
 ### Why
 
-It's the best way to loading an image. No dependancy. Pure javascript. Progressive Image Loading with a blur effect. Reduce the page loading time. Better user experience. Wow.
+It's the best way to loading an image. No dependancy. Pure JavaScript. Progressive Image Loading with a blur effect. Reduce the page loading time. Better user experience. Wow.
 
 
 ### Where
