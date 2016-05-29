@@ -27,7 +27,7 @@ https://zafree.github.io/pilpil
   </div>
   ```
 
-3. Set your `src`  small image path for class  `.progressiveMedia-thumbnail` 
+3. Add `src` small-image-path for class  `.progressiveMedia-thumbnail` 
 
   ```html
   <img class="progressiveMedia-thumbnail" src="small-image-path" alt="" />
@@ -39,7 +39,7 @@ https://zafree.github.io/pilpil
   <img class="progressiveMedia-image" data-src="original-image-path" alt="" />
   ```
 
-5. Set `data-width` and `data-height` for class `.progressiveMedia` via your api or what. For example:
+5. And finally set original image size (width, height) that you used in `data-src="path"` to `data-width` and `data-height` for class `.progressiveMedia`. For example:
 
   ```html
   <div class="progressiveMedia" data-width="1920" data-height="1080">
