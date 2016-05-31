@@ -7,7 +7,7 @@
         loadImage(progressiveMedias[i]);
     }
 
-    // global function 
+    // global function
     function loadImage(progressiveMedia) {
 
         // calculate aspect ratio
