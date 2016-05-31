@@ -27,7 +27,7 @@
         maxWidth = aspectRatioPlaceholder.offsetWidth,
         maxHeight = aspectRatioPlaceholder.offsetHeight;
 
-        aspectRatioPlaceholder.setAttribute('style', 'max-width:'+maxWidth+'; max-height:'+maxHeight+';');
+        aspectRatioPlaceholder.setAttribute('style', 'max-width:'+maxWidth+'px; max-height:'+maxHeight+'px;');
 
 
         // get thumbnail height wight
