@@ -7,7 +7,7 @@ https://zafree.github.io/pilpil
 
 ### How
 
-1. Link files to your site or application.
+1. Link files to your site or application (add `<script>` to bottom of page)
 
   ```html
   <link rel="stylesheet" href="css/pilpil.css">
