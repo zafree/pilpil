@@ -28,7 +28,7 @@
         maxHeight = aspectRatioPlaceholder.offsetHeight;
 
         aspectRatioPlaceholder.setAttribute('style', 'max-width:'+maxWidth+'; max-height:'+maxHeight+';');
-
+        
 
         // get thumbnail height wight
         // make canvas fun part
