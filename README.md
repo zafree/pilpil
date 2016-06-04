@@ -48,7 +48,7 @@ https://zafree.github.io/pilpil
 
 ### Why
 
-It's the best way to loading an image. No dependancy. Pure JavaScript. Progressive Image Loading with a blur effect. Reduce the page loading time. Better user experience. Wow.
+It's the best way to load an image. No dependencies. Pure JavaScript. Progressive Image Loading with a blur effect. Reduce the page loading time. Better user experience. Wow.
 
 
 ### Where
