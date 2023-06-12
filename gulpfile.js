@@ -36,32 +36,35 @@ gulp.task("js", function () {
 
 // sass
 gulp.task("sass", function () {
-  return gulp
-    .src("sass/pilpil.scss")
-    .pipe(plumber())
-    .pipe(sass().on("error", sass.logError)) // Updated sass function call
-    .pipe(
-      autoprefixer({
-        overrideBrowserslist: [
-          "Android >= 2.1",
-          "Chrome >= 21",
-          "Edge >= 12",
-          "Explorer >= 7",
-          "Firefox >= 17",
-          "Opera >= 12.1",
-          "Safari >= 6.0",
-        ],
-        cascade: false,
-      })
-    )
-    .pipe(rename({ basename: pkg.name }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(gulp.dest("dist/css"))
-    .pipe(cssmin())
-    .pipe(rename({ suffix: ".min" }))
-    .pipe(header(banner, { pkg: pkg }))
-    .pipe(gulp.dest("dist/css"))
-    .pipe(browserSync.stream());
+  return (
+    gulp
+      // .src("sass/pilpil.scss")
+      .src("sass/image.sass")
+      .pipe(plumber())
+      .pipe(sass().on("error", sass.logError)) // Updated sass function call
+      .pipe(
+        autoprefixer({
+          overrideBrowserslist: [
+            "Android >= 2.1",
+            "Chrome >= 21",
+            "Edge >= 12",
+            "Explorer >= 7",
+            "Firefox >= 17",
+            "Opera >= 12.1",
+            "Safari >= 6.0",
+          ],
+          cascade: false,
+        })
+      )
+      .pipe(rename({ basename: pkg.name }))
+      .pipe(header(banner, { pkg: pkg }))
+      .pipe(gulp.dest("dist/css"))
+      .pipe(cssmin())
+      .pipe(rename({ suffix: ".min" }))
+      .pipe(header(banner, { pkg: pkg }))
+      .pipe(gulp.dest("dist/css"))
+      .pipe(browserSync.stream())
+  );
 });
 
 // serve
