@@ -1,12 +1,12 @@
 /**
  * Pilpil v1.0.0 - Progressive Image Loading
  * @link https://zafree.github.io/pilpil
- * @copyright 2015-2016 Zafree
+ * @copyright 2015-2023 Zafree
  * @license MIT
- */
-figure {
+ */figure {
   display: block;
-  margin: 0; }
+  margin: 0;
+}
 
 .graf-figure {
   position: relative;
@@ -14,16 +14,19 @@ figure {
   outline: 0;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .aspectRatioPlaceholder {
   position: relative;
   width: 100%;
   margin: 0 auto;
-  display: block; }
+  display: block;
+}
 
 .aspectRatioPlaceholder-fill {
-  display: block; }
+  display: block;
+}
 
 .progressiveMedia {
   position: absolute;
@@ -31,10 +34,12 @@ figure {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.05); }
+  background: rgba(0, 0, 0, 0.05);
+}
 
 .progressiveMedia-thumbnail {
-  display: none; }
+  display: none;
+}
 
 .progressiveMedia-canvas {
   display: block;
@@ -47,7 +52,8 @@ figure {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 .progressiveMedia-image {
   display: block;
@@ -60,25 +66,30 @@ figure {
   z-index: 100;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
 
 .progressiveMedia .progressiveMedia-canvas {
   visibility: hidden;
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+}
 .progressiveMedia.is-canvasLoaded .progressiveMedia-canvas {
   visibility: visible;
   opacity: 1;
-  -webkit-transition: visibility 0s linear 0s,opacity .4s 0s;
-  transition: visibility 0s linear 0s,opacity .4s 0s; }
+  -webkit-transition: visibility 0s linear 0s, opacity 0.4s 0s;
+  transition: visibility 0s linear 0s, opacity 0.4s 0s;
+}
 .progressiveMedia .progressiveMedia-image {
   visibility: hidden;
   opacity: 0;
   -webkit-backface-visibility: hidden;
-  backface-visibility: hidden; }
+  backface-visibility: hidden;
+}
 .progressiveMedia.is-imageLoaded .progressiveMedia-image {
   visibility: visible;
   opacity: 1;
   -webkit-transition: visibility 0s linear 0s, opacity 1s 0s;
-  transition: visibility 0s linear 0s, opacity 1s 0s; }
+  transition: visibility 0s linear 0s, opacity 1s 0s;
+}

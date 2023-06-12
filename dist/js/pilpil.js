@@ -1,10 +1,9 @@
 /**
  * Pilpil v1.0.0 - Progressive Image Loading
  * @link https://zafree.github.io/pilpil
- * @copyright 2015-2016 Zafree
+ * @copyright 2015-2023 Zafree
  * @license MIT
- */
-;(function() {
+ */;(function() {
     'use strict';
 
     // set progressive image loading
