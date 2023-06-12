@@ -4,21 +4,28 @@
   "description": "Progressive Image Loading",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "homepage": "https://zafree.github.io/pilpil",
   "author": "Zafree",
   "license": "MIT",
   "devDependencies": {
     "browser-sync": "^2.12.8",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
     "gulp-concat": "^2.6.0",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-header": "^1.8.2",
+    "gulp-cssmin": "^0.2.0",
+    "gulp-header": "^2.0.9",
     "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.0.6",
-    "gulp-uglify": "^1.5.3"
+    "gulp-rename": "^2.0.0",
+    "gulp-ruby-sass": "^4.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-sass": "^5.1.0",
+    "sass": "^1.63.3"
   }
 }
