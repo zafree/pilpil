@@ -24,8 +24,8 @@ https://zafree.github.io/pilpil
   data-height="original_height"
   data-small="small_image_path"
   data-large="original_image_path"
-  data-alt="image_alt"
-></div>
+  data-alt="image_alt">
+</div>
 ```
 
 ### Why
