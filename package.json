@@ -1,24 +1,21 @@
 {
   "name": "pilpil",
-  "version": "1.0.0",
+  "title": "Pilpil",
   "description": "Progressive Image Loading",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "homepage": "https://zafree.github.io/pilpil",
-  "author": "Zafree",
+  "version": "2.0.0",
+  "author": "Zafree <zafree@live.com>",
   "license": "MIT",
+  "homepage": "https://github.com/zafree/pilpil",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --emptyOutDir",
+    "preview": "vite preview"
+  },
   "devDependencies": {
-    "browser-sync": "^2.12.8",
-    "gulp": "^3.9.1",
-    "gulp-autoprefixer": "^3.1.0",
-    "gulp-concat": "^2.6.0",
-    "gulp-cssmin": "^0.1.7",
-    "gulp-header": "^1.8.2",
-    "gulp-plumber": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-ruby-sass": "^2.0.6",
-    "gulp-uglify": "^1.5.3"
+    "sass": "^1.72.0",
+    "vite": "^5.2.0",
+    "vite-plugin-banner": "^0.7.1"
   }
 }
