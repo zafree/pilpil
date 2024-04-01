@@ -1,6 +1,6 @@
 /**
 * Pilpil v2.0.0 - Progressive Image Loading
-* @link https://zafree.github.io/pilpil/
+* @link https://github.com/zafree/pilpil
 * @copyright 2015-2024 Zafree <zafree@live.com>
 * @license MIT
 */
